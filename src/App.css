@@ -1,0 +1,112 @@
+.App {
+ box-sizing: border-box;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.btnbannerpart{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.btnbannerpart>button{
+background-color: rgb(255, 6, 139);
+color: white;
+border: rgb(255, 6, 139);;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.header>p{
+  font-size: 1rem;
+}
+
+.header>h2{
+  font-size: 3rem;
+}
+.header>h5{
+  font-size: 2rem;
+}
+
+.cnctwltbtn{
+  width: 100%;
+  height: 40px;
+  color:rgb(32, 32, 255);
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px gray;
+  border: white;
+}
+.btnrfrnw{
+  width: 100%;
+  height: 40px;
+  color:white;
+  background-color: rgb(32, 32, 255);
+
+  border: rgb(32, 32, 255);
+}
+
+.puts{
+  background-color:rgb(243, 223, 223);
+  height: 30px;
+  width: 50%;
+  text-align: center;
+  border: 2px solid rgb(245, 129, 129);
+}
+.calls{
+background-color: rgb(207, 233, 207);
+height: 30px;
+width: 50%;
+text-align: center;
+border: 2px solid rgb(104, 245, 104);
+}
+.rValue{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  background-color: lightgrey;
+}
+.rValue .rValuedata,.rValueheading{
+  text-align: center;
+}
