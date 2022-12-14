@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
 .btnbannerpart{
   display: flex;
   align-items: center;
@@ -46,6 +47,7 @@ background-color: rgb(255, 6, 139);
 color: white;
 border: rgb(255, 6, 139);;
 }
+
 .header{
   display: flex;
   flex-direction: row;
